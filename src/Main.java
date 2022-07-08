@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,7 +29,7 @@ public class Main {
                     numbers[j + 1] = temp;
                 }
             }
-            System.out.println(Array.toString(numbers));
+            System.out.println(Arrays.toString(numbers));
         }
 
     }
